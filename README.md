@@ -1,2 +1,2 @@
 # frostfolio
-Frost themed portfolio design.
+Frost themed portfolio design!.
