@@ -126,7 +126,7 @@ header {
   transform-origin: center;
 }
 
-/* hover & active styles (cover full row) */
+/* !hover & active styles (cover full row) */
 .sidebar a:hover,
 .sidebar a.active {
   color: var(--text);
