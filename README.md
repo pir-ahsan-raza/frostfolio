@@ -1,2 +1,2 @@
-# !frostfolio
+# frostfolio
 Frost themed portfolio design.
