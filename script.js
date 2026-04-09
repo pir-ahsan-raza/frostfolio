@@ -1,5 +1,4 @@
 // bar animtion
-// 
 document.addEventListener("DOMContentLoaded", () => {
   const skillBars = document.querySelectorAll("#skills .bar");
 
