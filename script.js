@@ -101,20 +101,4 @@ const revObs = new IntersectionObserver(
   { threshold: 0.22 }
 );
 document.querySelectorAll(".reveal").forEach((el) => revObs.observe(el));
-
-// Contact form: open mailto (your choice!)
-// const form = document.getElementById("contactForm");
-// form.addEventListener("submit", (e) => {
-//   e.preventDefault();
-//   const data = new FormData(form);
-//   const name = encodeURIComponent(data.get("name"));
-//   const email = encodeURIComponent(data.get("email"));
-//   const msg = encodeURIComponent(data.get("message"));
-//   const subject = `Portfolio inquiry from ${name}`;
-//   const body = `Name: ${name}%0D%0AEmail: ${email}%0D%0A%0D%0A${msg}`;
-//   window.location.href = `mailto:you@example.com?subject=${subject}&body=${body}`;
-// });
-
-// getting year!
 document.getElementById("year").textContent = new Date().getFullYear();
-
